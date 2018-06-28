@@ -16,3 +16,6 @@
 *.ear
 *.sar
 *.class
+
+# Scala worksheets
+*.sc
