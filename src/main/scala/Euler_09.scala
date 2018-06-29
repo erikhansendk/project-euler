@@ -1,5 +1,6 @@
 object Euler_09 {
   def main(args: Array[String]): Unit = {
+
     /**
       * A Pythagorean triplet is a set of three natural numbers, a < b < c, for which,
       * a2 + b2 = c2

@@ -1,6 +1,12 @@
 object Euler_05 {
   def main(args: Array[String]): Unit = {
 
+    /**
+      * 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+      *
+      * What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
+      */
+
     // helper
     def isEvenlyDivisibleByAllNumbersFrom1ToX(i: Int, x: Int): Boolean = {
       @scala.annotation.tailrec
@@ -26,10 +32,7 @@ object Euler_05 {
       t
     }
 
-
-    println(getMinIsEvenlyDivisibleByAllNumbersFrom1ToX(10)) // 2520
-    println(getMinIsEvenlyDivisibleByAllNumbersFrom1ToX(20)) // 232792560
-
+    println(getMinIsEvenlyDivisibleByAllNumbersFrom1ToX(20)) // 232792560 OK (but slow - 7 sec'ish)
 
 
     // test helper

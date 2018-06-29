@@ -54,8 +54,8 @@ object Euler_10 {
       (sum, list) // returning a tuple2
     }
 
-    val until2millions = findPrimesAndSum(2000000)
+    val until2million = findPrimesAndSum(2000000)
 
-    println(until2millions._1) // 142913828922 OK
+    println(until2million._1) // 142913828922 OK
   }
 }
